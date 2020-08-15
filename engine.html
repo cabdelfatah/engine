@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Direct Download Almost Anything</title>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="download,movies,games,music,softwares,epub,ebooks,pdf,mp3,songs,direct download">
+	<meta name="description" content="Find direct download links for about anything. TV Series, Movies, Books, music, softwares, games anything!! Take advantage of powerful advanced search of Google.">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="assets-engine/stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+</head>
+<!-- Opening body tag -->
+<body>
+
+<!-- Header -->
+<pre class="my-pre"><img src="https://img.icons8.com/plasticine/100/000000/google-logo.png" alt="" /> 
+<div>
+  Get direct download links for almost anything.
+<p>made by Abdelfatah, enjoy!</p>
+</div>
+</pre>
+<!-- Mobile Header -->
+<div align="center" class="row visible-xs">
+<h1>Open Directory Search</h1>
+Get direct download links for almost anything!!
+<hr />
+</div>
+
+<div class="my-container" id="search-container">
+<form class="my-searchForm" onsubmit="searchGoogle()">
+	<input type="hidden" name="fileType" value="" id="fileType">
+	<div class="row" align="center">
+		<div class="col-lg-3"></div>
+		<div class="col-lg-6">
+			<div class="input-group">
+				<div class="input-group-btn">
+					<button id="ddbutton" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Filetype <span id="message" class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#" onclick="setFiletype('mkv|mp4|avi|mov|mpg|wmv', 'TV/Movies', 'film')"><span class="glyphicon glyphicon-film" aria-hidden="true"></span> TV/Movies/Video</a></li>
+						<li><a href="#" onclick="setFiletype('MOBI|CBZ|CBR|CBC|CHM|EPUB|FB2|LIT|LRF|ODT|PDF|PRC|PDB|PML|RB|RTF|TCR|DOC|DOCX', 'Books', 'book')"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books</a></li>
+						<li><a href="#" onclick="setFiletype('mp3|wav|ac3|ogg|flac|wma|m4a', 'Music', 'music')"><span class="glyphicon glyphicon-music" aria-hidden="true"></span> Music</a></li>
+						<li><a href="#" onclick="setFiletype('exe|iso|dmg|tar|rar|zip|apk', 'Software/Games', 'cd')"><span class="glyphicon glyphicon-cd" aria-hidden="true"></span> Software/Games</a></li>
+						<li><a href="#" onclick="setFiletype('jpg|png|bmp|gif|tif|tiff|psd', 'Images', 'picture')"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a></li>
+						<li><a href="#" onclick="setFiletype('zip|iso|dmg', 'ISO/DMG', 'os')"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> ISO/DMG</a></li>
+					</ul>
+				</div><!-- /btn-group -->
+				<input type="text" name="query" value="" id="query" class="form-control" placeholder="Search anything e.g The.Blacklist.S01.E01">
+				<span class="input-group-btn">
+					<a href="#" onclick="searchGoogle()" class="btn btn-default black-background white"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+					<!-- <button class="btn btn-default" type="button">Go!</button> -->
+				</span>
+			</div>
+		</div>
+		<div class="col-lg-3">
+		</div>
+	</div>
+</form>
+</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="assets-engine/script.js"></script>
+</div>
+</body>
+</html>
